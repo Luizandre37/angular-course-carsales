@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+$backgraund-color:#252525 !important;
+$fonte-color:#fff !important;
+
+
+
+.p-card{
+  background-color: $backgraund-color;
+  color:$fonte-color;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10;
+
+}
+
