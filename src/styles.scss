@@ -2,6 +2,8 @@
 
 $backgraund-color:#252525 !important;
 $fonte-color:#fff !important;
+$width:300px ;
+$height:200px ;
 
 
 
@@ -9,7 +11,38 @@ $fonte-color:#fff !important;
   background-color: $backgraund-color;
   color:$fonte-color;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 10;
+  width: 20%;
+  height: 347px;
+  margin-left: 39%;
+  margin-top: 11%;
+}
+body{
+  opacity: 0.95;
+  opacity: 0.95;
+  background-image: url("./assets/pexels-photo-93652.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+
 
 }
+.text-center{
+  text-align: center;
+}
 
+input{
+width: 100%;
+height: 50%;
+}
+
+button{
+width: 100%;
+height: 50%;
+top:17px;
+}
+.carro{
+  margin-left: 40%;
+  width: 0px;
+  height: 0px;
+}
