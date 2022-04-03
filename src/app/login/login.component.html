@@ -10,14 +10,23 @@
           ></i>
           <h2 class="text-center">car-sales</h2>
           <label for="">usuario</label>
-          <input type="text" pInputText />
+          <input [(ngModel)]="requestLogin.login" type="text" pInputText />
         </div>
         <div class="p-col-12">
           <label for="">Senha</label>
-          <input type="text" pInputText />
+          <input
+            [(ngModel)]="requestLogin.password"
+            type="password"
+            pInputText
+          />
         </div>
         <div class="p-col-12">
-          <button pButton type="button" label="Entrar"></button>
+          <button
+            (click)="dologin()"
+            pButton
+            type="button"
+            label="Entrar"
+          ></button>
         </div>
       </div>
     </p-card>
